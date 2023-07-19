@@ -1,0 +1,27 @@
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(253, 255, 255, 0.548);
+    padding: 4%;
+    border-radius: 10px;
+}
+.bg{
+    margin-top: 30px;
+    padding-left: 7.3%;
+    padding-right: 7.3%;
+}
+.about-us{
+    text-align: justify;
+    font-size: 28px;
+}
+@media (max-width:620px) {
+    .about-us{
+        font-size: large;
+    }
+}
+.heading h1{
+    color: #FFDF2B;
+    padding-bottom: 2%;
+}

@@ -1,0 +1,24 @@
+.li {
+    -webkit-animation: fadeInUp 2s 2s;
+    animation: fadeInUp 2s 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    clear: both;
+    display: block;
+    list-style: none;
+    margin: 0 0 10px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+li.half{
+    clear: none;
+    float: left;
+    margin-left: 2%;
+    width: 49%;
+
+}
+li.half:first-child {
+    margin-left: 0;
+}

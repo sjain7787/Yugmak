@@ -1,0 +1,102 @@
+.csi__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 2rem;
+  }
+  
+  .csi__contact_heading h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color:  #FFDF2B;;
+  }
+  
+  .csi__contact_conatiner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  
+  .csi__contact_conatiner_left {
+    width: 50%;
+    margin: 3rem;
+  }
+  
+  .csi__contact_container_left-form input,
+  .csi__contact_container_left-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .csi__contact_container_left-form textarea {
+    height: 10rem;
+  }
+  
+  .csi__contact_container_left-form_submit button {
+    background-color: #58151c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Add transition property */
+  }
+  
+  .csi__contact_container_left-form_submit button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
+  }
+  
+  .csi__contact_conatiner_right {
+    width: 40%;
+    
+  }
+  .csi__contact_conatiner_right-info{
+    text-align: left;
+    padding:  1rem;
+  }
+  
+  .csi__contact_conatiner_right-heading h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .csi__contact_conatiner_right-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .csi__contact_conatiner_right-info p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  @media (max-width:768px){
+    .csi__contact_conatiner{
+      flex-direction: column;
+    }
+    .csi__contact_conatiner_left{
+      width: auto;
+    }
+    .csi__contact_conatiner_right{
+      width: 100%;
+    }
+    .csi__contact_conatiner_right-info{
+        text-align: center;
+        padding:  1rem;
+      }
+  }
+  
+.csi__contact_conatiner_right-info_phone p{
+    margin: 0px;
+
+}
+.csi__contact_conatiner_right-info_phone-ansh p{
+    margin-top: 10px;
+}
